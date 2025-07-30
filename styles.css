@@ -191,3 +191,72 @@ footer {
 .galeria img:hover {
   transform: scale(1.05);
 }
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #25d366;
+}
+.social-section {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid #900;
+  border-bottom: 2px solid #900;
+  margin-top: 30px;
+}
+
+.social-section p {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #ff0000;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;  /* 🔴 CENTRA horizontalmente */
+  gap: 16px;
+  margin-top: 5px;
+}
+
+.icon {
+  font-size: 16px;
+  width: 34px;
+  height: 34px;
+  background-color: #222;
+  color: #ff0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #900;
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  background-color: #900;
+  color: #fff;
+}
