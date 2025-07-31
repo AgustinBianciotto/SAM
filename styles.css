@@ -260,3 +260,15 @@ footer {
   background-color: #900;
   color: #fff;
 }
+.nav-logo img {
+  height: 40px; /* o el tamaño que necesites */
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+.contact-info p, .redes-directas p {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+}.contact-info a, .redes-directas a {
+  color: #900; /* O el color principal de tu paleta */
+  text-decoration: none;
+}
